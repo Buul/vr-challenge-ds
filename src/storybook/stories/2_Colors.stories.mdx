@@ -1,0 +1,47 @@
+import { Meta, ColorPalette, ColorItem } from '@storybook/blocks';
+import themeDefault from '../../theme/ThemeDefault';
+
+<Meta title="🚀 Get Started/Tokens/Colors" />
+
+<ColorPalette>
+  <ColorItem
+    title="theme.colors.primary"
+    subtitle="Primary colors for branding"
+    colors={{ primary: themeDefault.colors.primary }}
+  />
+  <ColorItem
+    title="theme.color.secondary"
+    subtitle="Secondary colors for branding"
+    colors={{ secondary: themeDefault.colors.secondary }}
+  />
+  <ColorItem
+    title="theme.colors.success"
+    subtitle="Colors for success components"
+    colors={{ success: themeDefault.colors.success }}
+  />
+  <ColorItem
+    title="theme.colors.danger"
+    subtitle="Colors for danger and errors components"
+    colors={{ danger: themeDefault.colors.danger }}
+  />
+  <ColorItem
+    title="theme.colors.gray"
+    subtitle="Gray colors scale"
+    colors={themeDefault.colors.gray}
+  />
+  <ColorItem
+    title="theme.colors.text"
+    subtitle="Text color"
+    colors={{ text: themeDefault.colors.text }}
+  />
+  <ColorItem
+    title="theme.colors.black"
+    subtitle="Black"
+    colors={{ black: themeDefault.colors.black }}
+  />
+  <ColorItem
+    title="theme.colors.white"
+    subtitle="White"
+    colors={{ white: themeDefault.colors.white }}
+  />
+</ColorPalette>

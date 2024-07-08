@@ -1,0 +1,44 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+
+<Meta title="🚀 Get Started/Installation" />
+
+# Installation
+
+First you need to install it using NPM or Yarn.
+
+#### Yarn
+
+```sh
+$ yarn add vr-challenge-ds
+```
+
+```sh
+$ yarn add styled-components
+```
+
+#### NPM
+
+```sh
+$ npm i vr-challenge-ds
+```
+
+```sh
+$ npm i styled-components
+```
+
+### Most basic example
+
+```jsx
+import React from 'react';
+
+import { ThemeProvider } from 'styled-components';
+import { themeDefault } from 'vr-challenge-ds';
+
+function App() {
+  return (
+    <ThemeProvider theme={themeDefault}>{/* your code here */}</ThemeProvider>
+  );
+}
+
+export default App;
+```
