@@ -1,18 +1,13 @@
 import { useState } from 'react';
 import { toast } from 'react-hot-toast';
+
+import { Canvas, Container, Row, Title } from 'utils/StoriesComponents';
+
 import { Meta, StoryFn } from '@storybook/react';
 
-import { Button } from '@/components/Form';
-
-import {
-  Canvas,
-  Container,
-  Row,
-  Title,
-} from '../../../utils/StoriesComponents';
-
-import { ToastVariants } from './Toast.types';
 import { Toast as ToastComponent, ToastProps } from '.';
+import { Button } from '../../Form';
+import { ToastVariants } from './Toast.types';
 
 const meta: Meta = {
   title: '🧩 Components/Feedbacks/Toast',
@@ -27,7 +22,7 @@ const argsProps: ToastProps = { variant: 'success' };
 
 export default meta;
 
-const Template: StoryFn<ToastProps> = args => {
+const Template: StoryFn<ToastProps> = (args) => {
   const [toastVariant, setToastVariant] = useState<ToastVariants>('success');
 
   const message = {

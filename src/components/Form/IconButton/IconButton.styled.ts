@@ -1,7 +1,6 @@
 import styled, { css } from 'styled-components';
 
 import { Button } from '../Button';
-
 import { IconButtonStyledProps } from './IconButton.types';
 
 const sizeLabelVariants = (sizeIconButton = 'md') =>
@@ -14,7 +13,7 @@ const sizeLabelVariants = (sizeIconButton = 'md') =>
       height: 36px;
       width: 36px;
     `,
-  })[sizeIconButton];
+  }[sizeIconButton]);
 
 export const IconButtonComponent = styled(Button)<IconButtonStyledProps>`
   border-radius: 100%;

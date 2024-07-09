@@ -1,14 +1,14 @@
 import { FC } from 'react';
 
-import { Icon } from '@/components/DataDisplay';
+import { Icon } from 'components/DataDisplay/Icon';
 import {
   Sizes,
   Variants as VariantsIcon,
-} from '@/components/DataDisplay/Icon/Icon.types';
+} from 'components/DataDisplay/Icon/Icon.types';
 import {
   iconVariantRuleForButtons,
   iconVariantsForButtons,
-} from '@/hook/components/useIcons';
+} from 'hook/components/useIcons';
 
 import * as Styled from './IconButton.styled';
 import { IconButtonProps } from './IconButton.types';

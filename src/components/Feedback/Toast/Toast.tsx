@@ -2,19 +2,18 @@ import { FC, useEffect, useState } from 'react';
 import toast, { ToastBar, Toaster } from 'react-hot-toast';
 
 import { Loading } from '../Loading';
-
 import * as Styled from './Toast.styled';
 import { ToastProps } from './Toast.types';
 
 const icon = {
   success: (
     <Styled.Icon>
-      <img alt="ícone sucesso" src="/icons/toast-img-success.svg" />
+      <img alt="ícone sucesso" src="./assets/icons/toast-img-success.svg" />
     </Styled.Icon>
   ),
   error: (
     <Styled.Icon>
-      <img alt="ícone erro" src="/icons/toast-img-error.svg" />
+      <img alt="ícone erro" src="./assets/icons/toast-img-error.svg" />
     </Styled.Icon>
   ),
   loading: (
@@ -70,14 +69,14 @@ const ToasterComponent: FC<ToastProps> = ({
           },
         }}
       >
-        {t => (
+        {(t) => (
           <ToastBar toast={t}>
             {({ message }) => (
               <Styled.ToastWrapper>
                 {icon[variant]}
                 <Styled.MessageWrapper>{message}</Styled.MessageWrapper>
                 <Styled.CloseButton onClick={handleClose}>
-                  <img alt="ícone com letra X" src="/icons/close.svg" />
+                  <img alt="ícone com letra X" src="./assets/icons/close.svg" />
                 </Styled.CloseButton>
               </Styled.ToastWrapper>
             )}

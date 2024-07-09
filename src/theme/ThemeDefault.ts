@@ -1,6 +1,6 @@
 import { ThemeType } from './Theme.types';
 
-const theme: ThemeType = {
+export const ThemeDefault: ThemeType = {
   colors: {
     white: '#ffffff',
     black: '#000000',
@@ -70,4 +70,4 @@ const theme: ThemeType = {
   },
 };
 
-export default theme;
+export default ThemeDefault;

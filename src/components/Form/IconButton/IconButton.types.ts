@@ -1,6 +1,6 @@
 import { ButtonHTMLAttributes } from 'react';
 
-import { Icons } from '@/types/Icons';
+import { Icons } from 'types/Icons';
 
 import { Variants } from '../Button/Button.types';
 

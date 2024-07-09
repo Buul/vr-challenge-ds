@@ -1,7 +1,7 @@
 import { FC } from 'react';
-import { filter } from 'lodash';
 
-import { iconList } from '@/hook/components/useIcons';
+import { iconList } from 'hook/components/useIcons';
+import { filter } from 'lodash';
 
 import * as Styled from './Icon.styled';
 import { IconProps } from './Icon.types';
@@ -23,7 +23,7 @@ const Icon: FC<IconProps> = ({ name, variant = 'primary', size = 'md' }) => (
     src={filterIconListByName(name).src}
     variant={variant}
     aria-hidden="true"
-    beforeInjection={svg => {
+    beforeInjection={(svg) => {
       svg.setAttribute('style', `${sizeRootVariants[size]}`);
     }}
   />

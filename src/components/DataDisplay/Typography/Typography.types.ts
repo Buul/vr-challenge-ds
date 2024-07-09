@@ -1,6 +1,6 @@
 import { HTMLAttributes } from 'react';
 
-import { SpacingBottomType } from '@/types/SpacingBottom';
+import { SpacingBottomType } from 'types/SpacingBottom';
 
 export type Variant =
   | 'principal'

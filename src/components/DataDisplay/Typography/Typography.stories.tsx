@@ -1,12 +1,7 @@
-import { Meta, StoryFn } from '@storybook/react';
 import styled from 'styled-components';
+import { Canvas, Container, Row, Title } from 'utils/StoriesComponents';
 
-import {
-  Canvas,
-  Container,
-  Row,
-  Title,
-} from '../../../utils/StoriesComponents';
+import { Meta, StoryFn } from '@storybook/react';
 
 import { Typography as TypographyComponent, TypographyProps } from '.';
 
@@ -52,7 +47,7 @@ const argsProps: TypographyProps = {};
 
 export default meta;
 
-const Template: StoryFn<TypographyProps> = args => (
+const Template: StoryFn<TypographyProps> = (args) => (
   <Canvas>
     <Title style={{ color: '#01557D' }}> Typography</Title>
     <Container style={{ marginTop: 48 }}>

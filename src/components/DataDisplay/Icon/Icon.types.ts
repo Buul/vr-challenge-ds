@@ -1,4 +1,4 @@
-import { Icons } from '@/types/Icons';
+import { Icons } from 'types/Icons';
 
 export type Sizes = 'xs' | 'sm' | 'md' | 'lg' | 'min';
 

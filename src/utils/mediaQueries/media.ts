@@ -1,4 +1,4 @@
-import themeDefault from '@/theme/ThemeDefault';
+import themeDefault from 'theme/ThemeDefault';
 
 const breakpoints = themeDefault.breakpoint;
 

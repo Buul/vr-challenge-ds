@@ -27,7 +27,7 @@ const variantsComponents = {
   ),
 };
 
-const Typography: FC<TypographyProps> = props => (
+const Typography: FC<TypographyProps> = (props) => (
   <>{variantsComponents[props.variant || 'base'](props)}</>
 );
 

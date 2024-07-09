@@ -1,19 +1,13 @@
-import { Meta, StoryFn } from '@storybook/react';
+import { iconList } from 'hook/components/useIcons';
 import { uniqueId } from 'lodash';
 import styled from 'styled-components';
+import { Icons } from 'types/Icons';
+import { Canvas, Container, Row, Title } from 'utils/StoriesComponents';
 
-import { iconList } from '@/hook/components/useIcons';
-import { Icons } from '@/types/Icons';
+import { Meta, StoryFn } from '@storybook/react';
 
-import {
-  Canvas,
-  Container,
-  Row,
-  Title,
-} from '../../../utils/StoriesComponents';
-
-import { Variants } from './Icon.types';
 import { Icon as IconComponent, IconProps } from '.';
+import { Variants } from './Icon.types';
 
 const meta: Meta = {
   title: '🧩 Components/DataDisplay/Icon',
@@ -54,13 +48,13 @@ const Label = styled.span<{ variant?: Variants }>`
   color: ${({ variant }) => (variant === 'colorless' ? '#ffffff' : '#000000')};
 `;
 
-const Template: StoryFn<IconProps> = args => (
+const Template: StoryFn<IconProps> = (args) => (
   <Canvas>
     <Title> Icons</Title>
     <Container>
       <Row>
         <IconsWrapper variant={args.variant}>
-          {iconList.map(icon => (
+          {iconList.map((icon) => (
             <Item key={uniqueId()}>
               <IconComponent {...args} name={icon.name as Icons} />
               <Label variant={args.variant}>{icon.name}</Label>

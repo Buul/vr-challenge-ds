@@ -1,6 +1,5 @@
 import styled, { css } from 'styled-components';
-
-import breakpoints from '@/utils/mediaQueries/media';
+import breakpoints from 'utils/mediaQueries/media';
 
 import { ButtonProps } from './Button.types';
 
@@ -63,7 +62,7 @@ const variantStyles = (variant = 'primary') =>
         color: ${({ theme }) => theme.colors.gray[400]};
       }
     `,
-  })[variant];
+  }[variant]);
 
 const sizeLabelVariants = (size = 'md') =>
   ({
@@ -74,7 +73,7 @@ const sizeLabelVariants = (size = 'md') =>
     md: css`
       height: 48px;
     `,
-  })[size];
+  }[size]);
 
 export const Button = styled.button<ButtonProps>`
   outline: none;

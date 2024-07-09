@@ -1,4 +1,5 @@
 import { ReactSVG } from 'react-svg';
+
 import styled, { css } from 'styled-components';
 
 import { IconStyledProps } from './Icon.types';

@@ -1,12 +1,7 @@
-import { Meta, StoryFn } from '@storybook/react';
 import styled from 'styled-components';
+import { Canvas, Container, Row, Title } from 'utils/StoriesComponents';
 
-import {
-  Canvas,
-  Container,
-  Row,
-  Title,
-} from '../../../utils/StoriesComponents';
+import { Meta, StoryFn } from '@storybook/react';
 
 import { Button as ButtonComponent, ButtonProps } from '.';
 
@@ -152,7 +147,7 @@ const ButtonSize = (args: ButtonProps) => (
   </>
 );
 
-const Template: StoryFn<ButtonProps> = args => (
+const Template: StoryFn<ButtonProps> = (args) => (
   <Canvas>
     {ButtonDefault(args)}
     {ButtonSize(args)}
