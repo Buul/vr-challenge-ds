@@ -1,0 +1,55 @@
+{
+  "ignore": [
+    "node_nodules/**/*"
+  ],
+  "presets": [
+    "@babel/preset-env",
+    "@babel/preset-react",
+    "@babel/preset-typescript",
+    "minify"
+  ],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": [
+          "./src/"
+        ],
+        "alias": {
+          "@designSystem": "./src/designSystem",
+          "@assets": "./src/assets",
+          "@themes": "./src/themes",
+          "@utils": "./src/utils",
+          "@components": "./src/components",
+          "@config": "./src/config",
+          "@sb": "./src/storybook"
+        }
+      }
+    ],
+    "babel-plugin-styled-components",
+    "@babel/plugin-transform-object-assign",
+    "@babel/plugin-transform-runtime",
+    "@babel/plugin-proposal-optional-chaining",
+    [
+      "@babel/plugin-proposal-class-properties",
+      {
+        "loose": true
+      }
+    ],
+    [
+      "@babel/plugin-proposal-object-rest-spread",
+      {
+        "loose": true
+      }
+    ],
+    "transform-react-constant-elements",
+    "transform-dev-warning",
+    "react-remove-properties",
+    [
+      "transform-react-remove-prop-types",
+      {
+        "mode": "unsafe-wrap"
+      }
+    ]
+  ]
+}

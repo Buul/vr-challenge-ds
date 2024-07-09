@@ -1,24 +1,18 @@
 # Changelog
 
-## [1.0.0] - 2024-07-08
+## [0.1.0] - 2023-01-09
 
 ### Author
   - Paulo Firmino
 
 ### Added
-  - first components and structure
-  - Button
-  - Icon Button
-  - Toast
-  - Loading
-  - Icon
-  - Typography
+  - First version, complete boilerplate
 #
 
-## [0.0.0] - 2024-01-31
+## [0.0.0] - 2023-01-09
 
 ### Author
-  - Author Name
+  - Paulo Firmino
 
 ### Added
 - Better explanation of the difference between the file ("CHANGELOG")
