@@ -4,7 +4,7 @@ export const Wrapper = styled.div`
   width: 100vw;
   height: 100vh;
   background-color: rgba(27, 33, 38, 0.7);
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 10;
@@ -14,7 +14,7 @@ export const Content = styled.div`
   padding-top: 40px;
   height: 100vh;
   min-width: 300px;
-  position: absolute;
+  position: fixed;
   background-color: ${({ theme }) => theme.colors.white};
   top: 0;
   right: 0;
