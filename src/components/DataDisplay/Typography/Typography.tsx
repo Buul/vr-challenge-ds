@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import React, { FC } from 'react';
 
 import * as Styled from './Typography.styled';
 import { TypographyProps } from './Typography.types';

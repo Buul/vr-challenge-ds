@@ -1,8 +1,14 @@
-import { Canvas, Container, Row, Title } from 'utils/StoriesComponents';
+import React from 'react';
 
 import { Meta, StoryFn } from '@storybook/react';
 
 import { Loading as LoadingComponent, LoadingProps } from '.';
+import {
+  Canvas,
+  Container,
+  Row,
+  Title,
+} from '../../../utils/StoriesComponents';
 
 const meta: Meta = {
   title: '🧩 Components/Feedbacks/Loading',

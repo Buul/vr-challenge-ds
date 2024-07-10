@@ -1,9 +1,16 @@
+import React from 'react';
+
 import styled from 'styled-components';
-import { Canvas, Container, Row, Title } from 'utils/StoriesComponents';
 
 import { Meta, StoryFn } from '@storybook/react';
 
 import { IconButton as IconButtonComponent, IconButtonProps } from '.';
+import {
+  Canvas,
+  Container,
+  Row,
+  Title,
+} from '../../../utils/StoriesComponents';
 
 const meta: Meta = {
   title: '🧩 Components/Form/IconButton',

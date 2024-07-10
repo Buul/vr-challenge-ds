@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components';
-import { addSpacingBottom } from 'utils/components/SpacingBottom/SpacingBottom.styles';
 
+import { addSpacingBottom } from '../../../utils/components/SpacingBottom/SpacingBottom.styles';
 import { TypographyStyled } from './Typography.types';
 
 const TypographyBase = css<TypographyStyled>`

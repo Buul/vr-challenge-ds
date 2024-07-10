@@ -1,5 +1,23 @@
 # Changelog
 
+## [0.1.15] - 2023-01-09
+
+### Author
+  - Paulo Firmino
+
+### Added
+  - export utils/breakpoint
+#
+
+## [0.1.7] - 2023-01-09
+
+### Author
+  - Paulo Firmino
+
+### Added
+  - export Theme type
+#
+
 ## [0.1.0] - 2023-01-09
 
 ### Author

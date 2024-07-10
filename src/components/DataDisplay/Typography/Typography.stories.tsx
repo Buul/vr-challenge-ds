@@ -1,9 +1,16 @@
+import React from 'react';
+
 import styled from 'styled-components';
-import { Canvas, Container, Row, Title } from 'utils/StoriesComponents';
 
 import { Meta, StoryFn } from '@storybook/react';
 
 import { Typography as TypographyComponent, TypographyProps } from '.';
+import {
+  Canvas,
+  Container,
+  Row,
+  Title,
+} from '../../../utils/StoriesComponents';
 
 const Table = styled.table`
   border: 1px solid black;

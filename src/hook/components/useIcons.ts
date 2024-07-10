@@ -1,5 +1,5 @@
-import { Variants as ButtonVariants } from 'components/Form/Button/Button.types';
-import { IconListType } from 'types/Icons';
+import { Variants as ButtonVariants } from '../../components/Form/Button/Button.types';
+import { IconListType } from '../../types/Icons';
 
 export const iconList: IconListType[] = [
   {

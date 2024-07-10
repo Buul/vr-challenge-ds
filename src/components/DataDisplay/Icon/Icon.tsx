@@ -1,8 +1,8 @@
-import { FC } from 'react';
+import React, { FC } from 'react';
 
-import { iconList } from 'hook/components/useIcons';
 import { filter } from 'lodash';
 
+import { iconList } from '../../../hook/components/useIcons';
 import * as Styled from './Icon.styled';
 import { IconProps } from './Icon.types';
 

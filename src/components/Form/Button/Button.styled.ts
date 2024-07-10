@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components';
-import breakpoints from 'utils/mediaQueries/media';
 
+import breakpoints from '../../../utils/mediaQueries/media';
 import { ButtonProps } from './Button.types';
 
 const variantStyles = (variant = 'primary') =>

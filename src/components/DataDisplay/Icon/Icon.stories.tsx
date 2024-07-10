@@ -1,12 +1,19 @@
-import { iconList } from 'hook/components/useIcons';
+import React from 'react';
+
 import { uniqueId } from 'lodash';
 import styled from 'styled-components';
-import { Icons } from 'types/Icons';
-import { Canvas, Container, Row, Title } from 'utils/StoriesComponents';
 
 import { Meta, StoryFn } from '@storybook/react';
 
 import { Icon as IconComponent, IconProps } from '.';
+import { iconList } from '../../../hook/components/useIcons';
+import { Icons } from '../../../types/Icons';
+import {
+  Canvas,
+  Container,
+  Row,
+  Title,
+} from '../../../utils/StoriesComponents';
 import { Variants } from './Icon.types';
 
 const meta: Meta = {

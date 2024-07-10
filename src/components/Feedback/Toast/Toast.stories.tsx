@@ -1,11 +1,15 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { toast } from 'react-hot-toast';
-
-import { Canvas, Container, Row, Title } from 'utils/StoriesComponents';
 
 import { Meta, StoryFn } from '@storybook/react';
 
 import { Toast as ToastComponent, ToastProps } from '.';
+import {
+  Canvas,
+  Container,
+  Row,
+  Title,
+} from '../../../utils/StoriesComponents';
 import { Button } from '../../Form';
 import { ToastVariants } from './Toast.types';
 
