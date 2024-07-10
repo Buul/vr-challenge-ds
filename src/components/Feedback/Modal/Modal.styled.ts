@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import breakpoints from 'utils/mediaQueries/media';
 
 export const Wrapper = styled.div`
   width: 100vw;
@@ -19,6 +20,10 @@ export const Content = styled.div`
   top: 0;
   right: 0;
   z-index: 100;
+
+  @media (max-width: ${breakpoints.md}) {
+    width: 100%;
+  }
 `;
 
 export const ButtonClose = styled.button`
