@@ -1,5 +1,6 @@
 import styled from 'styled-components';
-import breakpoints from 'utils/mediaQueries/media';
+
+import breakpoints from '../../../utils/mediaQueries/media';
 
 export const Wrapper = styled.div`
   width: 100vw;
