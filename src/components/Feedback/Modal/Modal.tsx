@@ -3,7 +3,7 @@ import React, { FC } from 'react';
 import * as Styled from './Modal.styled';
 import { ModalProps } from './Modal.types';
 
-const ModalComponent: FC<ModalProps> = ({ show, onClose }) => {
+const ModalComponent: FC<ModalProps> = ({ show, onClose, children }) => {
   const handleClose = () => {
     onClose();
   };
@@ -19,6 +19,7 @@ const ModalComponent: FC<ModalProps> = ({ show, onClose }) => {
             }}
           />
           <Styled.Content>
+            {children}
             <Styled.ButtonClose onClick={handleClose}>
               <svg
                 width="12"

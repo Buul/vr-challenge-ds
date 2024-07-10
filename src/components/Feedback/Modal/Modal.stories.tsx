@@ -38,7 +38,9 @@ const Template: StoryFn<ModalProps> = (args) => {
             {...args}
             show={openModal}
             onClose={() => setOpenModal(false)}
-          />
+          >
+            teste
+          </ModalComponent>
         </Row>
       </Container>
     </Canvas>

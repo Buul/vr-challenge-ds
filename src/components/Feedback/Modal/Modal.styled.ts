@@ -11,6 +11,7 @@ export const Wrapper = styled.div`
 `;
 
 export const Content = styled.div`
+  padding-top: 40px;
   height: 100vh;
   width: 627px;
   position: absolute;
