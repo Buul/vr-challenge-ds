@@ -1,6 +1,6 @@
 {
   "name": "vr-challenge-ds",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "main": "dist/js/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/js/index.d.ts",
@@ -40,6 +40,7 @@
   "dependencies": {
     "@storybook/react": "^6.1.21",
     "@testing-library/react": "^10.4.7",
+    "concurrently": "^7.6.0",
     "lodash": "^4.17.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

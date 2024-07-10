@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.1.20] - 2023-01-09
+
+### Author
+  - Paulo Firmino
+
+### Added
+  - add Modal Component
+#
+
 ## [0.1.15] - 2023-01-09
 
 ### Author
