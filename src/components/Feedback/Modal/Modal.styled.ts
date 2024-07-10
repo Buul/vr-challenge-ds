@@ -13,7 +13,7 @@ export const Wrapper = styled.div`
 export const Content = styled.div`
   padding-top: 40px;
   height: 100vh;
-  width: 627px;
+  min-width: 300px;
   position: absolute;
   background-color: ${({ theme }) => theme.colors.white};
   top: 0;

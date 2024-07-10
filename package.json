@@ -1,6 +1,6 @@
 {
   "name": "vr-challenge-ds",
-  "version": "1.0.21",
+  "version": "1.0.22",
   "main": "dist/js/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/js/index.d.ts",
